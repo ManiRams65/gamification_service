@@ -23,7 +23,7 @@ class Server {
         },
       })
     );
-    Router.load(app, "./src/controllers");
+    Router.load(app, "./api/src/controllers");
 
     PostgresService.InitalizeDBConnection();
     app.listen(port, () => {

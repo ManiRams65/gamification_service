@@ -12,10 +12,10 @@ module.exports = class Router {
         const endpointPath = path
           .dirname(fullName)
           .split(path.sep)
-          .slice(2)
+          .slice(3)
           .join("/");
         const baseRoute = `/api/${endpointPath}`;
-        const controllerClass = require(`../../../${fullName}`);
+        const controllerClass = require(`../../../../${fullName}`);
         console.log("Baseroute", baseRoute);
         const route = express.Router();
         new controllerClass(route);
