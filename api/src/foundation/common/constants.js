@@ -1,5 +1,5 @@
 module.exports = CONSTANTS = {
-  allowedOrigins: ["http://localhost:1234", "gamification-service-u17z.vercel.app"],
+  allowedOrigins: ["http://localhost:1234", "https://gamification-service-u17z.vercel.app"],
   port: 3000,
   db_config: {
     user: "svvmanikandan",
