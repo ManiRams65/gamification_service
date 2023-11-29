@@ -1,7 +1,7 @@
 {
   "name": "gamification_service",
   "version": "1.0.0",
-  "description": "For practicing node js using express",
+  "description": "Gamification Service",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server.js"
