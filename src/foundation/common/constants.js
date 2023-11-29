@@ -4,7 +4,7 @@ module.exports = CONSTANTS = {
   db_config: {
     user: "default",
     host: "ep-billowing-tree-69057902-pooler.us-east-1.postgres.vercel-storage.com",
-    database: "gamification_schema",
+    database: "gam1f1c4t10n_db_n4m3_1234567",
     password: "4VNduS5IUbGH",
     port: 5432,
   },
